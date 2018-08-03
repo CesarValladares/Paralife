@@ -240,8 +240,14 @@ a:hover, a:focus {
 
 .slider {
     margin-left: 20px;
-    padding: 20px;
+    padding: 40px;
 
+    text-align: center;
+}
+
+.slider2 {
+    margin-left: 20px;
+    padding: 20px;
     text-align: center;
 }
 

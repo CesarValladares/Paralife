@@ -1,12 +1,12 @@
-$(document).ready({
-    $("#myModal").css("display", "block");
+$(document).ready(function() {
+    $(".modal").css("display", "block");
 
-    $('#myBtn').on("click", function() {
-        $('#myModal').css('display', 'block');
+    $('#videoButton').on("click", function() {
+        $('.modal').css('display', 'block');
     });
 
-    $('.close').on("click", function() {
-        $('#myModal').css('display', 'none');
+    $('.closeModal').on("click", function() {
+        $('.modal').css('display', 'none');
     });
 
     // When the user clicks anywhere outside of the modal, close it

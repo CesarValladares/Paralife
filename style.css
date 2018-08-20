@@ -81,35 +81,14 @@ body {
 
 .slider {
     margin-left: 20px;
-    padding: 40px;
-
+    padding: 10px;
     text-align: center;
-}
-
-.slider2 {
-    margin-left: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-.slider .row{
-    margin: auto;
 }
 
 .slider h1 {
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-}
-
-.allies {
-    padding: 0;
-    margin: auto;
-
-    width: 150px;
-
-    border-radius: 10px;
-    text-align: center;
 }
 
 .allies img {
@@ -123,6 +102,8 @@ body {
 
 /*Footer*/
 footer {
+    position: absolute;
+    left: 0;
     width: 100%;
 
     color: white;

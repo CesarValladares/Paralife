@@ -15,3 +15,41 @@
     padding: 10px;
     margin: 10px;
 }
+.carousel3{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel3-item{
+    height: 150px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.carousel4{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel4-item{
+    height: 180px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+
+    padding: 10px;
+    margin: 10px;
+
+    text-align: center;
+}
+
+.carousel4-item .col-md-6 img{
+    margin-left: 40px;
+}
+.carousel4-item p{
+    margin-left: 40px;
+}

@@ -1,15 +1,22 @@
 $(document).ready(function() {
-    $(".modal").css("display", "block");
 
     $('#videoButton').on("click", function() {
         $('.modal').css('display', 'block');
     });
+    /*$(".modal").css("display", "block");
 
     $('.closeModal').on("click", function() {
         $('.modal').css('display', 'none');
-    });
+    });*/
 });
 
+$(document).click(function(){
+    $('.modal').css('display', 'none');
+});
+$(".modal").click(function(e){
+    e.stopPropagation();
+    return false;
+});
 $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname)

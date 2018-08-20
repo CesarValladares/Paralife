@@ -17,13 +17,14 @@
 }
 
 .carousel2{
-    height: 380px;
+    height: 300px;
     margin: auto;
+    margin-bottom: 70px;
 }
 
 .carousel2-item{
     border-radius: 10px;
-    height: 380px;
+    height: 320px;
     color: black;
     font-size: 15px;
 

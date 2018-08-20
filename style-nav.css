@@ -1,0 +1,73 @@
+/*Navigation bar*/
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+    z-index: 1000;
+}
+
+.img-logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+}
+
+.nav-buttons {
+    transform: translate(0, -150%);
+    float: right;
+    margin: auto;
+    display: inline-block;
+    margin-top: 53px;
+}
+
+.nav-button {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+}
+
+a:hover, a:focus {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+.callToAction:hover {
+    padding: 10px;
+    background-color: orange;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+.nav-button .callToAction {
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.nav-button .callToAction:hover {
+    padding: 10px;
+    background-color: white;
+    height: 50px;
+    color: orange;
+    border-radius: 5px;
+    border: 1px solid white;
+}

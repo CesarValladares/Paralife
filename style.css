@@ -27,73 +27,6 @@ body {
     background-color: orange;
 }
 
-/*Navigation bar*/
-.nav-bar {
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    background-color: orange;
-    z-index: 1000;
-}
-
-.img-logo img {
-    width: 100px;
-    height: 100px;
-    margin-top: -20px;
-}
-
-.nav-buttons {
-    transform: translate(0, -150%);
-    float: right;
-    margin: auto;
-    display: inline-block;
-    margin-top: 53px;
-}
-
-.nav-button {
-    display: inline-block;
-    list-style: none;
-    margin-right: 10px;
-}
-
-.nav-buttons a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
-
-a {
-    text-decoration: none;
-    color: orange;
-    font-weight: 700;
-}
-
-a:hover, a:focus {
-    background-color: orange;
-    color: white;
-    text-decoration: none;
-}
-
-/*Carousel*/
-
-.carousel1{
-    width: 75%;
-    height: 150px;
-    margin: auto;
-    transform: translate(0, 120%);
-}
-
-.carousel1-item{
-    border-radius: 10px;
-    background-color: rgba(255,255,255,1);
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-    
-    padding: 10px;
-    margin: 10px;
-}
-
 /*Content*/
 .main-block {
     padding: 0;
@@ -144,118 +77,6 @@ a:hover, a:focus {
     color: orange;
     border-radius: 5px;
     border: 1px solid orange;
-}
-
-.callToAction:hover {
-    padding: 10px;
-    background-color: orange;
-    height: 50px;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid orange;
-}
-
-.nav-button .callToAction {
-    padding: 10px;
-    background-color: rgba(0,0,0,0);
-    height: 50px;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid white;
-}
-
-.nav-button .callToAction:hover {
-    padding: 10px;
-    background-color: white;
-    height: 50px;
-    color: orange;
-    border-radius: 5px;
-    border: 1px solid white;
-}
-
-.block{
-    height: 250px;
-
-    background-color: white;
-    border-radius: 10px;
-
-    padding: 0;
-    padding-bottom: 40px;
-
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.block-content {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 20px;
-}
-
-.block-content h1 {
-    margin-top: -23px;
-    font-weight: 700;
-    font-size: 30px;
-    color: orange;
-}
-
-
-.block-content p {
-    text-align: justify;
-    font-weight: 400;
-}
-
-.sub-title {
-    font-size: 13px;
-    font-weight: 800;
-    color: gray;
-}
-
-.content-image {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-attachment: relative;
-    background-size: cover;
-
-    margin-bottom: -20px;
-
-    height: 100%;
-}
-
-#image1 {
-    background-image: url('./resources/img/xicani.jpg');
-}
-
-#image2 {
-    background-image: url('./resources/img/arly.jpg');
-}
-
-.side-content {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 20px;
-}
-
-.side-content h1 {
-    padding-left: 10px;
-    font-size: 25px;
-    font-weight: 700;
-    color: orange;
-}
-
-.side-content p {
-    padding-left: 10px;
-    font-size: 10px;
-    font-weight: 800;
-    color: gray;
-    margin-bottom: -4px;
-}
-
-#large-block {
-    height: auto;
 }
 
 .slider {
@@ -355,7 +176,7 @@ footer .title {
     text-align: center;
 }
 
-.modal{text-align: justify; display:block; opacity: 0; position: absolute; right: 0px; left: 0px; top: 0px; bottom: 0px; background-color: rgba(0,0,0,0.5); pointer-events: none; z-index: 9999; padding: 5px; webkit-transition: opacity .3s ease-out; -o-transition: opacity .3s ease-out; transition: opacity .3s ease-out; }
+.modal{text-align: justify; display:block; opacity: 1   ; position: absolute; right: 0px; left: 0px; top: 0px; bottom: 0px; background-color: rgba(0,0,0,0.5); pointer-events: none; z-index: 9999; padding: 5px; webkit-transition: opacity .3s ease-out; -o-transition: opacity .3s ease-out; transition: opacity .3s ease-out; }
 .modal > a:active {padding: 3px 5px 2px 5px; border-top: 1px solid #f26a00; }
 .modal > div { border-radius: 10px; position: relative; top: -50%; color: #000; margin:auto; min-width:240px; max-width: 480px; padding: 5px 5px 5px 12px; margin-top: 30%; background-color: #fff;box-shadow: 0px 0px 110px 1px #000;}
 .modal > div > div {margin: 0px 14px 14px 14px;}

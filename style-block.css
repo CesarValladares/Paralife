@@ -30,6 +30,12 @@
     font-weight: 400;
 }
 
+.block-content li {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .sub-title {
     font-size: 13px;
     font-weight: 800;

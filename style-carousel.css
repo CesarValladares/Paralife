@@ -15,6 +15,21 @@
     padding: 10px;
     margin: 10px;
 }
+
+.carousel2{
+    height: 350px;
+    margin: auto;
+}
+
+.carousel2-item{
+    border-radius: 10px;
+    height: 320px;
+    color: black;
+    font-size: 15px;
+
+    padding: 10px;
+    margin: 10px;
+}
 .carousel3{
     width: 100%;
     margin: auto;

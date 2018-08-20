@@ -74,6 +74,26 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+/*Carousel*/
+
+.carousel1{
+    width: 75%;
+    height: 150px;
+    margin: auto;
+    transform: translate(0, 120%);
+}
+
+.carousel1-item{
+    border-radius: 10px;
+    background-color: rgba(255,255,255,1);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    
+    padding: 10px;
+    margin: 10px;
+}
+
 /*Content*/
 .main-block {
     padding: 0;

@@ -3,19 +3,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fundación Paralife</title>
+        
         <!--CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" type="text/css" />
-
-        <!--Javascript-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="resources/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="./style.css" type="text/css" />
 
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900" rel="stylesheet">
-
-        <!--Javascript-->
-        <link rel="stylesheet" href="./style.css" type="text/css" />
-        <script src="js/script.js"></script>
     </head>
     <body>
         <!--Nav bar -->
@@ -46,10 +42,18 @@
         <div class="main-block">
             <div id="main-image" class="background-image"></div>
             <div class="main-content">
-                <h1>Fundación Paralife</h1>
-                <p>Somos una fundación encargada del reclutamiento y selección de personal con discapacidad, atendemos a todas las discapacidades y a todos los niveles de escolaridad.</p>
-                <p>Trabajamos con las empresas para que desarrollen un plan de políticas internas que apoyen la diversidad y la inclusión.</p>
-                <p>Capacitamos a los equipos estratégicos para cambiar la cultura respecto al talento y productividad de las personas con discapacidad.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Fundación Paralife</h1>                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="carousel1">
+                            <div class="carousel1-item shadow">Somos una fundación encargada del reclutamiento y selección de personal con discapacidad, atendemos a todas las discapacidades y a todos los niveles de escolaridad.</div>
+                            <div class="carousel1-item shadow">Trabajamos con las empresas para que desarrollen un plan de políticas internas que apoyen la diversidad y la inclusión.</div>
+                            <div class="carousel1-item shadow">Capacitamos a los equipos estratégicos para cambiar la cultura respecto al talento y productividad de las personas con discapacidad.</div>
+                        </div>
+                    </div>
+                </div>
                 <!-- <p>Sin fines de lucro y sin afiliación de partido, raza o religión.</p> -->
                 <div class="container">
                     <div class="row" >
@@ -67,7 +71,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -252,8 +255,7 @@
                         <h1>Xicani Godínez</h1>
                     </div>
                 </div>
-            </div>
-            <div class="block row col-sm-12 shadow">
+                <div class="block row col-sm-7 shadow">
                     <div class="block-content col-md-3">
                         <p><span class="sub-title">FILOSOFÍA</span></p>
                         <h1>Diversidad</h1>
@@ -278,7 +280,7 @@
                         </ul>
                     </div>
                 </div>
-
+            </div>
             <div class="spacer"></div>
         </div>
 
@@ -326,5 +328,25 @@
                 </div>
             </div>
         </div>
+        
+        <!--Javascript-->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="js/script.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".carousel1").slick({
+                    dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                });
+            });
+        </script>
     </body>
 </html>

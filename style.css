@@ -42,7 +42,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: relative;
-    background-size: auto;
+    background-size: cover;
     /*filter: blur(2px);*/
 
     height: 500px;
@@ -51,7 +51,7 @@ body {
 .main-content {
     position: absolute;
     width: 100%;
-    height: 495px;
+    height: 500px;
     top: 0;
     text-align: center;
 

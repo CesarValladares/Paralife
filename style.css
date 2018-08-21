@@ -6,6 +6,7 @@ body {
     font-style: regular;
 }
 
+
 /*Any*/
 .shadow {
     -webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
@@ -157,7 +158,7 @@ footer .title {
     text-align: center;
 }
 
-.modal{text-align: justify; display:block; opacity: 1   ; position: absolute; right: 0px; left: 0px; top: 0px; bottom: 0px; background-color: rgba(0,0,0,0.5); pointer-events: none; z-index: 9999; padding: 5px; webkit-transition: opacity .3s ease-out; -o-transition: opacity .3s ease-out; transition: opacity .3s ease-out; }
+.modal{text-align: justify; display:block; opacity: 1   ; position: fixed; right: 0px; left: 0px; top: 0px; bottom: 0px; background-color: rgba(0,0,0,0.5); pointer-events: none; z-index: 9999; padding: 5px; webkit-transition: opacity .3s ease-out; -o-transition: opacity .3s ease-out; transition: opacity .3s ease-out; }
 .modal > a:active {padding: 3px 5px 2px 5px; border-top: 1px solid #f26a00; }
 .modal > div { border-radius: 10px; position: relative; top: -50%; color: #000; margin:auto; min-width:240px; max-width: 480px; padding: 5px 5px 5px 12px; margin-top: 30%; background-color: #fff;box-shadow: 0px 0px 110px 1px #000;}
 .modal > div > div {margin: 0px 14px 14px 14px;}

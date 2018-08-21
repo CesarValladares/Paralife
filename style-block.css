@@ -1,5 +1,5 @@
 .block{
-    height: 250px;
+    height: 200px;
 
     background-color: white;
     border-radius: 10px;
@@ -10,6 +10,19 @@
     margin: auto;
     margin-bottom: 20px;
 }
+
+.dos{
+    height: 280px;
+    background-color: white;
+    border-radius: 10px;
+
+    padding: 0;
+    padding-bottom: 40px;
+
+    margin: auto;
+    margin-bottom: 20px;
+}   
+
 
 .block-content {
     border-top-left-radius: 10px;
